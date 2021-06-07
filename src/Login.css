@@ -1,0 +1,30 @@
+.login {
+	/* background-color: #f8f8f8; */
+	background-color: #aac0fc;
+	height: 90vh;
+	width: 100vw;
+	display: grid;
+	place-items: center;
+}
+/* floating card design */
+.login__container {
+	padding: 100px;
+	text-align: center;
+	/* background-color: white; */
+	background-color: rgb(182, 235, 172);
+	border-radius: 10px;
+	/* elivated design for card */
+	box-shadow: 0 10px 50px rgba(0, 0, 0, 0.8), 0 1px;
+}
+.login__container > img {
+	object-fit: contain;
+	height: 100px;
+	margin-bottom: 40px;
+}
+.login__container > button {
+	margin-top: 50px;
+	text-transform: inherit !important;
+	background-color: #0a8d48 !important;
+	font-weight: bold !important;
+	color: white;
+}

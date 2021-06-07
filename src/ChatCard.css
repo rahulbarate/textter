@@ -1,0 +1,30 @@
+.ChatCard {
+	margin-left: -20px;
+	margin-top: 5px;
+	margin-right: 10px;
+	border-radius: 20px !important;
+}
+.chat__message {
+	font-size: 16px;
+	padding: 10px;
+	background-color: rgb(208, 213, 214);
+	border-radius: 10px;
+	width: fit-content;
+	margin-bottom: 20px;
+}
+.chat__sender {
+	margin-left: auto;
+	background-color: rgb(185, 185, 250);
+}
+.mbody {
+	flex: 1;
+	/* background-image: url("https://i.pinimg.com/736x/55/a4/4e/55a44e59618507debb99d95fc16b659a.jpg"); */
+	background-repeat: repeat;
+	background-position: center;
+	padding: 30px;
+	overflow: scroll;
+}
+.chat__timestamp {
+	margin-left: 10px;
+	font-size: x-small;
+}
